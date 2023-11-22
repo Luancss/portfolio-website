@@ -26,8 +26,20 @@ export const navData = [
   },
 ];
 
+// next link
+import Link from "next/link"
+
+// next router
+import {useRouter} from 'next/router'
+
 const Nav = () => {
-  return <nav>nav</nav>;
+  return <nav>
+    <div>
+      {navData.map((link, index) => {
+        return <Link href={link.path}>{link.icon}</Link>
+      })}
+    </div>
+  </nav>;
 };
 
 export default Nav;
