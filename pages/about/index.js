@@ -45,7 +45,7 @@ const aboutData = [
     title: "Educação",
     info: [
       {
-        title: "RocketSeat - Ignite (JavaScript - TypeScript - React - NextJs)",
+        title: "RocketSeat - Ignite (TypeScript - React - NextJs - API)",
         stage: "10/2023",
       },
       {
