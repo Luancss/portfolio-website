@@ -22,7 +22,7 @@ const Work = () => {
               exit="hidden"
               className="h2 xl:mt-12"
             >
-              My work <span className="text-accent">.</span>
+              Meus Projetos <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -30,9 +30,7 @@ const Work = () => {
               animate="show"
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              necugue nec quam rhoncus sodales. Vestibulum ante ipsum primis in
-              faucibus orci luctus et ultrices.
+              Explore meu portfólio de projetos como desenvolvedor frontend, onde cada linha de código é uma narrativa visual. De websites responsivos a experiências interativas, cada projeto reflete meu compromisso em unir estética e funcionalidade no universo digital.
             </motion.p>
           </div>
           {/* slider */}

@@ -20,30 +20,31 @@ import { FreeMode, Pagination } from "swiper";
 // data
 const serviceData = [
   {
+    icon: <RxDesktop />,
+    title: "Desenvolvedor",
+    description: "Transformando designs em realidade interativa.",
+  },
+  {
     icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Thumbmaker",
+    description: "Domínio de design gráfico e estratégias de destaque visual",
   },
   {
     icon: <RxPencil2 />,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Editor VFX",
+    description: "Habilidades em efeitos visuais para contar histórias de forma cinematográfica",
   },
-  {
-    icon: <RxDesktop />,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
+  
   {
     icon: <RxReader />,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Criador de conteúdo",
+    description: "Profundo entendimento de como engajar a audiência, promover o crescimento orgânico e estabelecer parcerias eficazes",
   },
-  {
-    icon: <RxRocket />,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
+  // {
+  //   icon: <RxRocket />,
+  //   title: "SEO",
+  //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  // },
 ];
 
 const ServiceSlider = () => {

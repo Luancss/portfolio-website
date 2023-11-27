@@ -25,8 +25,8 @@ const Home = () => {
             animate="show"
             exit="hidden"
             className="h1">
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+            Transformando ideias <br /> em{" "}
+            <span className="text-accent">Realidade Digital</span>
           </motion.h1>
           {/* subtitle */}
           <motion.p
@@ -35,9 +35,7 @@ const Home = () => {
             animate="show"
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-            augue nec quam rhoncus sodales. Vestibulum ante ipsum primis in
-            faucibus orci luctus et ultrices.
+            Entusiasta de tecnologia com sólida experiência em desenvolvimento web. Proficiente em JavaScript e TypeScript, com foco especial em construção de interfaces modernas utilizando React.js e Next.js. Apaixonado por criar soluções elegantes e eficientes que impulsionam a experiência do usuário.
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">

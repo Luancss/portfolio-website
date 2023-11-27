@@ -27,12 +27,12 @@ const aboutData = [
         icons: [
           <FaHtml5 />,
           <FaCss3 />,
-          <FaSass/>,
+          <FaSass />,
           <FaJs />,
           <FaReact />,
           <SiNextdotjs />,
           <SiFramer />,
-          
+
         ],
       },
       {
@@ -80,7 +80,7 @@ const aboutData = [
         title: "Udemy - JAVA Programação Orientada a Objetos",
         stage: "05/2022",
       },
-      
+
     ],
   },
   {
@@ -154,8 +154,8 @@ const About = () => {
             animate="show"
             exit="hidden"
             className="h2">
-            Captivating <span className="text-accent">stories</span> birth
-            magnificent designs.
+            Histórias <span className="text-accent">cativantes</span> geram
+            designs magníficos.
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -163,9 +163,12 @@ const About = () => {
             animate="show"
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 ">
-            10 years ago, I began freelancing as a developer. Since then I've
-            done remote work for agencies, consulted for startups, and
-            collaborated on digital products for business and consumer use
+            Trabalhei como Editor VFX com
+            expertise em pós-produção, Motion
+            Graphics e 3D Edits. No ano de 2022 fiz
+            uma transição de carreira e desde então
+            venho me aprofundando no
+            desenvolvimento Frontend
           </motion.p>
           {/* counters */}
           <motion.div
@@ -240,7 +243,7 @@ const About = () => {
                   <div className="hidden md:flex"></div>
                   <div>{item.stage}</div>
                   <div className="flex gap-x-4">
-                  
+
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {
                       return <div className="text-2xl text-white">{icon}</div>;
