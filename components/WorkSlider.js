@@ -10,7 +10,7 @@ const workSlider = {
         },
         {
           title: "title",
-          path: "/dogsproject.png",
+          path: "/dogs2.JPG",
           href: "https://dogs-origamid.vercel.app/"
         },
         {
@@ -36,17 +36,17 @@ const workSlider = {
         {
           title: "title",
           path: "/timerrr.JPG",
-          href: "https://dogs-origamid.vercel.app/"
+          href: "https://ignite-timer-luancss.vercel.app/"
         },
         {
           title: "title",
           path: "/news222.JPG",
-          href: "https://dogs-origamid.vercel.app/"
+          href: "https://github.com/Luancss/Ignews"
         },
         {
           title: "title",
           path: "/animais.png",
-          href: "https://dogs-origamid.vercel.app/"
+          href: "https://luancss.github.io/Animais-Fantasticos/"
         },
       ],
     },
