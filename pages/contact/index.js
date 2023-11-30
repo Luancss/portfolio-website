@@ -10,13 +10,19 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../../variants";
 
+import { Formik } from "formik";
+import * as yup from "yup";
+
+
 const Contact = () => {
   function handleSubmit(e) {
     e.preventDefault();
   }
 
+
   return (
     <div>
+      
       <div className="container mx-auto">
         <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
           {/* text & form */}
@@ -63,5 +69,6 @@ const Contact = () => {
     </div>
   );
 };
+
 
 export default Contact;
