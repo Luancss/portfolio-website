@@ -232,26 +232,24 @@ const About = () => {
             })}
           </div>
           <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
-            {aboutData[index].info.map((item, itemIndex) => {
-              return (
-                <div
-                  key={itemIndex}
-                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
-                >
-                  {/* title */}
-                  <div className="font-light mb-2 md:mb-0">{item.title}</div>
-                  <div className="hidden md:flex"></div>
-                  <div>{item.stage}</div>
-                  <div className="flex gap-x-4">
-
-                    {/* icons */}
-                    {item.icons?.map((icon, itemIndex) => {
-                      return <div key={itemIndex} className="text-2xl text-white">{icon}</div>;
-                    })}
-                  </div>
+          {/* eslint-disable react/jsx-key */}
+            {aboutData[index].info.map((item, itemIndex) => (
+              <div key={`info-${itemIndex}`} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
+                {/* title */}
+                <div key={`title-${itemIndex}`} className="font-light mb-2 md:mb-0">{item.title}</div>
+                <div key={`hidden-${itemIndex}`} className="hidden md:flex"></div>
+                <div key={`stage-${itemIndex}`}>{item.stage}</div>
+                <div key={`icons-${itemIndex}`} className="flex gap-x-4">
+                  {/* icons */}
+                  {item.icons?.map((icon, iconIndex) => (
+                    <div key={`icon-${itemIndex}-${iconIndex}`} className="text-2xl text-white">
+                      {icon}
+                    </div>
+                  ))}
                 </div>
-              );
-            })}
+              </div>
+            ))}
+            {/* eslint-disable react/jsx-key */}
           </div>
         </motion.div>
       </div>
